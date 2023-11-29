@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "ae610867-c718-41fd-b22a-72c8b400fc9d",
+		"name": "Clabs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8785255"
+	},
+	"item": [
+		{
+			"name": "submitreq",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ev\": \"contact_form_submitted\",\n    \"et\": \"form_submit\",\n    \"id\": \"cl_app_id_001\",\n    \"uid\": \"cl_app_id_001-uid-001\",\n    \"mid\": \"cl_app_id_001-uid-001\",\n    \"t\": \"Vegefoods - Free Bootstrap 4 Template by Colorlib\",\n    \"p\": \"http://shielded-eyrie-45679.herokuapp.com/contact-us\",\n    \"l\": \"en-US\",\n    \"sc\": \"1920 x 1080\",\n    \"atrk1\": \"form_varient\",\n    \"atrv1\": \"red_top\",\n    \"atrt1\": \"string\",\n    \"atrk2\": \"ref\",\n    \"atrv2\": \"XPOWJRICW993LKJD\",\n    \"atrt2\": \"string\",\n    \"uatrk1\": \"name\",\n    \"uatrv1\": \"iron man\",\n    \"uatrt1\": \"string\",\n    \"uatrk2\": \"email\",\n    \"uatrv2\": \"ironman@avengers.com\",\n    \"uatrt2\": \"string\",\n    \"uatrk3\": \"age\",\n    \"uatrv3\": \"32\",\n    \"uatrt3\": \"integer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/submitreq",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"submitreq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "submitworker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ev\": \"contact_form_submitted\",\n    \"et\": \"form_submit\",\n    \"id\": \"cl_app_id_001\",\n    \"uid\": \"cl_app_id_001-uid-001\",\n    \"mid\": \"cl_app_id_001-uid-001\",\n    \"t\": \"Vegefoods - Free Bootstrap 4 Template by Colorlib\",\n    \"p\": \"http://shielded-eyrie-45679.herokuapp.com/contact-us\",\n    \"l\": \"en-US\",\n    \"sc\": \"1920 x 1080\",\n    \"atrk1\": \"form_varient\",\n    \"atrv1\": \"red_top\",\n    \"atrt1\": \"string\",\n    \"atrk2\": \"ref\",\n    \"atrv2\": \"XPOWJRICW993LKJD\",\n    \"atrt2\": \"string\",\n    \"uatrk1\": \"name\",\n    \"uatrv1\": \"iron man\",\n    \"uatrt1\": \"string\",\n    \"uatrk2\": \"email\",\n    \"uatrv2\": \"ironman@avengers.com\",\n    \"uatrt2\": \"string\",\n    \"uatrk3\": \"age\",\n    \"uatrv3\": \"32\",\n    \"uatrt3\": \"integer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/submitworker",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"submitworker"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "submitchannel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ev\": \"contact_form_submitted\",\n    \"et\": \"form_submit\",\n    \"id\": \"cl_app_id_001\",\n    \"uid\": \"cl_app_id_001-uid-001\",\n    \"mid\": \"cl_app_id_001-uid-001\",\n    \"t\": \"Vegefoods - Free Bootstrap 4 Template by Colorlib\",\n    \"p\": \"http://shielded-eyrie-45679.herokuapp.com/contact-us\",\n    \"l\": \"en-US\",\n    \"sc\": \"1920 x 1080\",\n    \"atrk1\": \"form_varient\",\n    \"atrv1\": \"red_top\",\n    \"atrt1\": \"string\",\n    \"atrk2\": \"ref\",\n    \"atrv2\": \"XPOWJRICW993LKJD\",\n    \"atrt2\": \"string\",\n    \"uatrk1\": \"name\",\n    \"uatrv1\": \"iron man\",\n    \"uatrt1\": \"string\",\n    \"uatrk2\": \"email\",\n    \"uatrv2\": \"ironman@avengers.com\",\n    \"uatrt2\": \"string\",\n    \"uatrk3\": \"age\",\n    \"uatrv3\": \"32\",\n    \"uatrt3\": \"integer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/submitchannel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"submitchannel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
